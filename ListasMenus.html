@@ -1,0 +1,66 @@
+<!DOCTYPE html> 
+<html lang="pt-br"> 
+  
+<head>
+    <meta charset="utf-8">
+    <title>Listas e Menus</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: rgba(0, 0, 0, .6);
+            display: flex;
+            align-items: center;
+            }
+        nav ul {
+            display: flex;
+            align-items: center;
+        }
+
+        nav a{
+            background-color: green;
+            height: 50px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-decoration: none;  
+            text-transform: uppercase;
+            padding: 10px 20px;          
+            display: block;
+        }
+
+        nav a:hover{
+            background-color: rgba(20, 20, 50, .6);
+        }
+
+    </style>
+</head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="#">Elemento1</a></li>                
+                <li><a href="#">Elemento2</a></li>                
+                <li><a href="#">Elemento3</a></li>                
+            </ul>
+        </nav>
+        <ul> 
+            <!--Lista não ordenada-->    
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <ol  type="I" start="5">
+            <!--Lista ordenada e posso mudar como ordenar se é por numero ou letra e o inicio da contagem-->
+            <li>Item T</li>
+            <li>Item H</li>
+            <li>Item A</li>
+        </ol>
+        <dl> 
+            <!--Lista de descrição-->
+            <dt> Café</dt>
+            <dd> Bebidas quentes com ou sem açucar e canela </dd>
+            <dt> Café Gelado</dt>
+            <dd> Bebidas Geladas com Sorvete e Nutela</dd>
+        </dl>
+   </body>
+</html>

@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+input:focus {
+   box-shadow: 0 0 5px rgba(0, 0, 0, .8);
+   outline: none;
+   border: 2px solid blue;
+   color: brown;
+}
+div:hover + p {
+    color: rgb(214, 146, 19);
+    background-color: darkgray;
+}
+
+
+.heading:hover{
+    background-color: blue;
+    color: burlywood;
+    
+}
+a:link{
+    color: chartreuse;
+}
+
+a:visited{
+    color: crimson;
+}
+a:hover{
+    background-color: darkgray;
+    color: darkorange;
+}
+a:active{
+    background-color: darkslategray;
+    color: deeppink;
+}
+.lista .item li:first-child{
+background-color: darkgreen;
+color: floralwhite;
+}
+.lista .item li:last-child{
+    background-color: darksalmon;
+    }
+    p:not(.meio){
+        color: rgb(0, 162, 255);
+    }
+    .meio{
+        color:rgb(206, 12, 224);
+    }
+    /* Aqui vou fazer uso do Sticky para personalizar a lista*/
+    ul{
+        height: 130px;
+        overflow-y: auto;
+    }
+    ul li.sticky{
+        position: sticky;
+        background: goldenrod;
+        top: 0;
+    }
+

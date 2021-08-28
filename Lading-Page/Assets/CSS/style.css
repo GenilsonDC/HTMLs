@@ -1,0 +1,75 @@
+:root{
+    --primary-color: #0C6357;
+    --color-White: #FFFFFF;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 63%;
+}
+body{
+    font-family: 'Quattrocento', serif;
+    font-size: 1.6rem;
+   
+}
+.main-bg{
+    background-image: url(../img/rainbow-vortex.svg);
+    background-size: cover;
+    background-position: center center;
+    color: var(--primary-color);
+}
+.main-content{
+max-width: 122rem;
+margin: 0 auto;
+}
+.menu{
+    background: var(--color-White);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+.menu ul li a{
+    display:flex ;
+
+}
+.menu-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section{
+    min-height: 100vh;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Quattrocento', serif;
+
+}
+h1{
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+h2{
+    font-size: 5.5rem;
+    text-transform: uppercase;
+}
+h3{
+    font-size: 5.2rem;
+    text-transform: uppercase;
+}
+h4{
+    font-size: 4.7rem;
+    text-transform: uppercase;
+}
+h5{
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+h6{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
