@@ -1,4 +1,4 @@
-.teste1 h1{
+.teste1 h2{
     width: 200px;
     background-color: rgb(200, 255, 0);
     
@@ -8,13 +8,22 @@
     background-color: rgb(174, 211, 211);
     width: 300px;
 
-    color: rgb(168, 16, 206);
+    color: rgb(199, 13, 22);
 }
 
 div{
     margin-left: 20px;
 }
-.mae>.filha>.filha {
-    color: blueviolet;
+.filha1 .neta1{
+    color: rgb(43, 226, 134);
 
+}
+
+.teste1 p:last-child{
+    color: rgb(231, 38, 189);
+
+}
+
+[atributo]{
+    color: chocolate;
 }
